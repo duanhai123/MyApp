@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:background="@color/lightslategrey"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout style="@style/content">
+        <TextView
+            android:text="返回"
+
+            style="@style/content_left" />
+            <TextView
+                android:text="安全验证"
+                style="@style/content_right" />
+        </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <CheckBox
+                android:id="@+id/cb_safe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textSize="20dp"
+                android:padding="5dp"
+
+                android:text="回答安全问题"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            </LinearLayout>
+        <TextView
+            android:textSize="20dp"
+            android:padding="5dp"
+            android:layout_marginLeft="5dp"
+            android:text="问题一"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="20dp"
+            android:padding="5dp"
+            android:layout_marginLeft="5dp"
+            android:text="问题二"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <CheckBox
+            android:id="@+id/cb_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="20dp"
+            android:padding="5dp"
+
+            android:text="通过邮箱找回"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+        <TextView
+            android:textSize="20dp"
+            android:padding="5dp"
+            android:layout_marginLeft="10dp"
+            android:text="输入邮箱地址"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_marginTop="20dp"
+        android:text="下一步"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>
